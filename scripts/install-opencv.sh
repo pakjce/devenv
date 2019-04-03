@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ef -o pipefail
 
-if [[ ! -z ${PYTHON_ENV_DIR} ]]; then
+if [[ -z ${PYTHON_ENV_DIR} ]]; then
     echo "Please activate PYTHON_ENV_DIR!"
     exit 1
 fi

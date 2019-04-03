@@ -2,7 +2,10 @@
 
 ## 선행 조건
 
-`pyenv`, `conda` 등을 미리 설치해둡니다.
+* ubuntu에서 test 하였습니다.
+* `pyenv`, `conda` 등을 미리 설치해둡니다.
+* `$HOME`/devenv 에서 작업을 진행합니다.
+* 개발환경을 새로 추가하는 경우 `.gitignore` 에 해당 폴더를 추가해둡니다.
 
 ## 사용 방법
 `./activations` 에 적절한 activation script를 작성해두고,
