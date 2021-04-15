@@ -17,4 +17,6 @@ ${CONDA} install -n ${CONDA_ENV_NAME} -y virtualenv numba cython numpy \
     matplotlib protobuf faiss-gpu=${FAISS_VERSION} cudatoolkit=10.1 cudnn wheel -c pytorch 
 
 # Install Essential Packages
-$HOME/devenv/conda/envs/${CONDA_ENV_NAME}/bin/pip install awscli dvc[s3] pipenv
+${PYTHON_ENV_DIR}/bin/pip install awscli
+${PYTHON_ENV_DIR}/bin/pip install dvc[s3]
+${PYTHON_ENV_DIR}/bin/pip install pipenv

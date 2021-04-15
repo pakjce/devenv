@@ -17,5 +17,6 @@ ${CONDA} install -n ${CONDA_ENV_NAME} -y virtualenv numba cython numpy mkl mkl-i
  pandas matplotlib protobuf jupyterlab jupyter pytorch=1.5.0 torchvision==0.6.0 torchvision cudatoolkit=10.1 cudnn -c pytorch
 
 # Install Essential Packages
-${PYTHON_ENV_DIR}/bin/pip install awscli pipenv docker-compose
+${PYTHON_ENV_DIR}/bin/pip install awscli
 ${PYTHON_ENV_DIR}/bin/pip install dvc[s3]
+${PYTHON_ENV_DIR}/bin/pip install pipenv
